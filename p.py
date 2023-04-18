@@ -14,7 +14,7 @@ with tab1:
         st.title("")
         st.subheader("Hi! I am")
         st.title(":blue[Aman] Kumar Sharma")
-        st.markdown("Hi, My name is Aman, I am a full time Business Analyst with over 1.5 years of expereince. Juggling around the data problems and crunching out numbers is what I do best. Weather it is a web app, superwised machine learning, exploratory data analysis or beautiful dashboards, my portfolio consists all. Do have a look around !!")
+        st.markdown("Hi, My name is Aman, I am a full time Business Analyst with over 1.5 years of experience. Juggling around the data problems and crunching out numbers is what I do best. Whether it is a web app, superwised machine learning, exploratory data analysis or beautiful dashboards, my portfolio consists all. Do have a look around !!")
         link,git, resume1,logospc = st.columns((.2,.2,.8,.8))
         with link:
             st.markdown('[![LinkedIn](https://img.icons8.com/color/48/000000/linkedin-circled--v1.png)](https://www.linkedin.com/in/amankrsharma23/)')
