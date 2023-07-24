@@ -22,7 +22,7 @@ with tab1:
             st.markdown('[![GitHub](https://img.icons8.com/material-rounded/48/000000/github.png)](https://github.com/amanksharma23)')
         resume,resspc,resspc = st.columns((.4,.8,.8))
         
-        with open("Aman sharma.pdf", "rb") as pdf_file:
+        with open("Aman Kumar Sharma.pdf", "rb") as pdf_file:
             PDFbyte = pdf_file.read()
         
         
