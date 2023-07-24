@@ -166,7 +166,7 @@ with tab2:
                 """, unsafe_allow_html=True)
             # Add text to the container
         st.markdown('<div class="box"><b></p>July 2023</b></p>'
-                    '<b><p>And now I am currently working as a business analyst at Legistify.</b></p>'
+                    '<b><p>And now I am currently working as a business analyst..</b></p>'
                     '<ul>'
                     '<li>Analyzing the SAAS based products of the company (Product Usage Analytics).</li>'
                     '<li>Developing dashboards for the stakeholders in accordance with their needs.</li>'
