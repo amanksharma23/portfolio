@@ -14,7 +14,7 @@ with tab1:
         st.title("")
         st.subheader("Hi! I am")
         st.title(":blue[Aman] Kumar Sharma")
-        st.markdown("Hi, My name is Aman, I am a full time Business Analyst with over 1.5 years of experience. Juggling around the data problems and crunching out numbers is what I do best. Whether it is a web app, supervised machine learning, exploratory data analysis or beautiful dashboards, my portfolio consists all. Do have a look around !!")
+        st.markdown("I am a Senior Associate in Credit Risk at BharatPe, with expertise in machine learning, predictive modeling, and risk assessment. I developed models that improved classification accuracy by 25% and enhanced predictive insights by 30%, significantly refining loan application processes. Previously, as a Business Analyst at BharatPe (Scienaptic Systems), I optimized underwriting platforms, reducing credit decision times by 50% and improving risk assessment accuracy by 30%. My experience spans creating merchant behavior scores, improving risk assessments by 20%, and enhancing data-driven decision-making across multiple fintech products. Prior to that, at Legistify Services, I designed performance dashboards that drove user engagement and streamlined business operations.")
         link,git, resume1,logospc = st.columns((.2,.2,.8,.8))
         with link:
             st.markdown('[![LinkedIn](https://img.icons8.com/color/48/000000/linkedin-circled--v1.png)](https://www.linkedin.com/in/amankrsharma23/)')
@@ -22,7 +22,7 @@ with tab1:
             st.markdown('[![GitHub](https://img.icons8.com/material-rounded/48/000000/github.png)](https://github.com/amanksharma23)')
         resume,resspc,resspc = st.columns((.4,.8,.8))
         
-        with open("Aman Kumar Sharma.pdf", "rb") as pdf_file:
+        with open("Aman Kumar Sharma Resume.pdf", "rb") as pdf_file:
             PDFbyte = pdf_file.read()
         
         
@@ -31,14 +31,14 @@ with tab1:
             st.download_button(
                 label="Resume",
                 data=PDFbyte,
-                file_name= "Aman sharma.pdf",
+                file_name= "Aman Kumar Sharma Resume.pdf",
                 mime='pdf',
             )
         
         st.markdown("______________________________________________________________________________________")
 
     with pp:
-        st.image('Propic1680178080640-01.jpeg')
+        st.image('Screenshot_20221202_021420.png')
 
     st.markdown("<h1 style='text-align: center; color: #3396ff;'>Portfolio</h1>", unsafe_allow_html=True)
     st.markdown("<h1 style='text-align: center; color: black; font-size: 28px'>My projects</h1>", unsafe_allow_html=True)
